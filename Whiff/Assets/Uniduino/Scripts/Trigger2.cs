@@ -25,7 +25,7 @@ public class Trigger2 : MonoBehaviour {
     }
 	
 	void OnTriggerExit(Collider other) {
-		arduino.analogWrite(pin, 60);
+		arduino.analogWrite(pin, 90);
 	}
 
 }
